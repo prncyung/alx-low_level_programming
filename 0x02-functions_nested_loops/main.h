@@ -1,11 +1,11 @@
 #ifndef main_h
-#define main_h
 /**
  * main - Entry point
  *
  * Description: 'list all the prototypes used in this program or task'
  * @parameter: describe the parameter
  */
+#define main_h
 
 int _putchar(char);
 void print_alphabet(void);
