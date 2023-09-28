@@ -84,3 +84,12 @@ ltrace, ldd, gdb and objdump can help
 You may need to install the openssl library to run the crakme2 program: sudo apt install libssl-dev
 Edit the source list sudo nano /etc/apt/sources.list to add the following line: deb http://security.ubuntu.com/ubuntu xenial-security main Then sudo apt update and sudo apt install libssl1.0.0
 
+Note the last task can be done by using the following below:
+The Advanced task no. 9
+
+==> open the file using vi -b 101-cranckme_password
+==> when you see the vi window, don't use the insert mode, just type :set binary and hit enter
+==> type :set noeol and hit enter
+==> use the insert mode(i) and type abc123
+==> esc :wq hit enter
+==> Then git add . etc
